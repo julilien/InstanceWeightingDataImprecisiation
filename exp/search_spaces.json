@@ -1,0 +1,38 @@
+{
+  "LocallyWeightedLinearRegression": {
+    "c": [0.01, 0.1, 0.2, 0.5, 1, 2, 5, 10]
+  },
+  "IntervalBasedLinearRegression": {
+    "c": [0.01, 0.1, 0.2, 0.5, 1, 2, 5, 10]
+  },
+  "HuberRegressor": {
+    "epsilon": [1.35, 1.5, 1.75, 1.9],
+    "alpha": [0.0001, 0.001, 0.01, 0.1, 1]
+  },
+  "SVM": {
+
+  },
+  "RegSVM": {
+
+  },
+  "OWSVM": {
+
+  },
+  "RSVM": {
+    "s": [-5, -2.5, -1, -0.5]
+  },
+  "FLSVM": {
+    "max_iter": 25,
+    "eps": [1e-4, 5e-4, 1e-3, 5e-3, 1e-2, 5e-2, 1e-1],
+    "discrete_weights": "False"
+  },
+  "SSFLSVM": {
+    "max_iter": 25,
+    "eps": [1e-4, 5e-4, 1e-3, 5e-3, 1e-2, 5e-2, 1e-1],
+    "discrete_weights": "False",
+    "num_w_iter": 1
+  },
+  "SSWSVM": {
+    "num_w_iter": 1
+  }
+}

@@ -1,0 +1,8 @@
+venv/
+
+.idea/
+# conf/*
+mlruns/
+
+# Bash scripts for cluster usage
+*.sh
